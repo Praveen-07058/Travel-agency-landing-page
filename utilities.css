@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+.items_center{
+    align-items: center;
+}
+.justify_center{
+    justify-content: center;
+}
+.justify_between{
+    justify-content: space-between;
+}
+.text_center{
+    text-align: center;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+.items_start{
+    align-items: start;
+}
+.justify_end{
+    justify-content: end;
+}
+.justify_around{
+    justify-content: space-around;
+}
+.justify_evenly{
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,30 @@
+:root {
+--primary : #fa7436;
+--white: #ffffff;
+--aliceblue: rgb(240,248,255);
+}
+.arrows_container{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    .arrow_container1{
+        width: 35px;
+        height: 35px;
+        border: 2px solid rgb(177, 171, 171);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+         color: rgb(177,171,171);
+        &:hover{
+            background-color: var(--primary);
+            border: none;
+            color: var(--white);
+        }
+        i{
+          font-size: 18px;
+          font-weight: bold;
+        }
+    }
+}
